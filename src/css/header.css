@@ -1,0 +1,180 @@
+.settings-panel {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .settings-panel.open {
+    right: 0;
+  }
+  
+  .settings-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .icon-ellipsis {
+    cursor: pointer;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-list .form-check-label {
+    cursor: pointer;
+  }
+  
+  .add-items .form-control {
+    margin-right: 0.5rem;
+  }
+  
+  .add-items .btn {
+    white-space: nowrap;
+  }
+  
+  .events .wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .events .text-primary {
+    margin-right: 0.5rem;
+  }
+  
+  /* ///////////////// */
+  .checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .checkbox::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkbox:checked::before {
+    background-color: #007bff; /* Change the color as needed */
+  }
+  
+  .input-helper {
+    /* display: none;  */
+  }
+  
+
+
+.logodash{
+  margin-top: 9%;
+}
+
+
+
+
+/* ///////////////////////////////////////////////// */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  display: none; 
+}
+
+.nav-item.nav-settings {
+  display: flex !important;
+  align-items: center;
+}
+
+.icon-ellipsis {
+  font-size: 24px;
+}
+
+ @media (max-width: 991.98px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .navbar-menu-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar-brand-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 0 10px;
+  }
+
+  .nav-item.nav-settings {
+    display: flex !important;
+  }
+
+  .icon-ellipsis {
+    display: block;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "globals": {
+      "ace": "readonly",
+      "jQuery": "readonly"
+    }
+  }
+  

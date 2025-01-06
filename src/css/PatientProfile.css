@@ -1,0 +1,245 @@
+
+  
+.tablesflex{
+  display: flex;
+  justify-content:space-around;
+  margin: 30px auto ;
+  width: 90%;
+
+}
+.tests2{
+  margin-left: 50px ;
+}
+.labels{
+  padding: 10px;
+  color: #0f7dac;
+  font-weight: bold;
+}
+
+.button-51 {
+background-color: transparent;
+border: 1px solid #266DB6;
+box-sizing: border-box;
+color: #00132C;
+font-family: "Avenir Next LT W01 Bold",sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+padding: 16px 23px;
+position: relative;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.button-51:hover,
+.button-51:active {
+outline: 0;
+}
+
+.button-51:hover {
+background-color: transparent;
+cursor: pointer;
+}
+
+.button-51:before {
+background-color: #D5EDF6;
+content: "";
+height: calc(100% + 3px);
+position: absolute;
+right: -7px;
+top: -9px;
+transition: background-color 300ms ease-in;
+width: 100%;
+z-index: -1;
+}
+
+.button-51:hover:before {
+background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+.button-51 {
+  padding: 16px 32px;
+}
+}
+
+.button-43 {
+background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+border-radius: .5rem;
+box-sizing: border-box;
+color: #FFFFFF;
+display: flex;
+font-size: 16px;
+justify-content: center;
+padding: 0.5rem 1.75rem;
+text-decoration: none;
+width: 80px;
+border: 0;
+cursor: pointer;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+margin: 6px;
+}
+
+.button-43:hover {
+background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+.button-43 {
+  padding: 0.5rem 2rem;
+}
+}
+.S-btns{
+  display: flex;
+  margin-bottom: 20px;
+}
+.btnMargin{
+  margin-left: 8%;
+}
+
+.tabDecor{
+  width: 2px;
+  height: 300px;
+  background-color: rgb(241, 233, 233);
+  margin-top: 50px;
+}
+.reportbtn2{
+  margin: 15px 30px ;
+  
+}
+.profNameH{
+  color: #2064be;
+}
+.profName{
+  margin: 20px;
+
+background-color: transparent;
+border: 1px solid #266DB6;
+box-sizing: border-box;
+color: #124c98;
+font-family: "Avenir Next LT W01 Bold",sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+padding: 16px 23px;
+position: relative;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+  color: #12579b;
+}
+.profName:hover,
+.profName:active {
+outline: 0;
+}
+
+.profName:hover {
+background-color: transparent;
+cursor: pointer;
+}
+
+.profName:before {
+background-color: #D5EDF6;
+content: "";
+height: calc(100% + 3px);
+position: absolute;
+right: -7px;
+top: -9px;
+transition: background-color 300ms ease-in;
+width: 100%;
+z-index: -1;
+}
+
+.profName:hover:before {
+background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+.profName {
+  padding: 16px 32px;
+}
+}
+
+.editTable2{
+  /* margin: 10px 30px; */
+  margin-left:100px ;
+}
+  .profile-container {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .patient-details p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .file-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .file-table thead {
+    background-color: #f2f2f2;
+    color: white;
+  }
+  
+  .file-table th, .file-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .file-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .file-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+  .download-button {
+    background-color: #007bff;;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  

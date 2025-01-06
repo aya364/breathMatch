@@ -1,0 +1,183 @@
+.Upload {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(to bottom, #559eedb1 50%, #f4f4f4 50%);
+  /* background: linear-gradient(to top, #559eedb1 50%, #f4f4f4 50%); */
+
+  /* position: relative; */
+}
+
+/* .Upload::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-bottom: 400px solid #62a3eae1;
+  } */
+
+.upload-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-top: 12px solid #1182fb;
+  border-bottom: 6px solid #1582f8;
+}
+
+.upload-form h1 {
+  margin-bottom: 15px;
+  color: #145ba8;
+}
+
+.upload-form input {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.upload-form button {
+  background-color: #0b70db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+  background-color: #0056b3;
+}
+
+.slider-container {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 80vh;
+  max-width: 100%;
+  scrollbar-width: thin;
+  -ms-overflow-style: scrollbar;
+
+  /* border: 2px solid red;
+  max-height: 700px; 
+  overflow-y: scroll; */
+}
+
+.slider::-webkit-scrollbar {
+  display: block;
+}
+
+.slider-item {
+  flex: 1 0 300px;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider-item p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.pva-message {
+  margin-top: 20px;
+  background-color: #ffcccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+/* /////////////////////////////// */
+
+.dashContainer {
+  margin: auto;
+  border-radius: 15px;
+  /* border: 3px dashed gold; */
+  border: 2px dashed rgb(0, 166, 255);
+  padding: 30px;
+}
+
+.upload-form i {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.upload-form select,
+.upload-form input[type="file"],
+.custom-file-label,
+.custom-file-input {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+}
+
+.upload-form select {
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5H7z" fill="%23666"/></svg>')
+    no-repeat right 10px center;
+  padding-right: 40px;
+}
+
+.upload-form input[type="file"] {
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* /////////////////////////////// */
+
+.upload-form select,
+.upload-form input[type="file"],
+.custom-file-label,
+.custom-file-input {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+}
+
+.upload-form select {
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5H7z" fill="%23666"/></svg>')
+    no-repeat right 10px center;
+  padding-right: 40px;
+}

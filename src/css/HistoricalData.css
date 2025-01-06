@@ -1,0 +1,49 @@
+
+.hisCont{
+  width: 90%;
+  margin: 0px auto;
+}
+.profName2{
+  width: 390px;
+  margin-bottom: 0;
+}
+.hisImg {
+  margin-top: -100px;
+  margin-left: 40%;
+  position: relative;
+  width: 250px; 
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgcenter{
+  margin-left: 40%;
+}
+
+.hist1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin-top: 0;
+}
+.hist2 {
+  width: 50%;
+  height: 50%;
+}
+
+/* ///////////////////////////////////// */
+
+.histBtn {
+  background-color: rgb(23, 106, 161);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.histBtn:hover {
+  background-color: rgb(23, 106, 161);
+}
