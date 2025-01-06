@@ -13,7 +13,9 @@ import { WiThermometer } from 'react-icons/wi'; // Weather Icons library
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { WiDaySunny, WiCloudy, WiRain, WiSnow, WiThunderstorm, WiFog } from 'react-icons/wi';
-import { CircularProgress } from '@material-ui/core';
+// import { CircularProgress } from '@material-ui/core';
+// import { CircularProgress } from '@mui/icons-material';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../vendors/feather/feather.css'

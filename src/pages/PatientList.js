@@ -377,7 +377,8 @@
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Close from '@material-ui/icons/Close';
+// import Close from '@material-ui/icons/Close';
+import Close from '@mui/icons-material/Close';
 import styles from '../css/patientlist.css'
 import Sidebar from '../components/sidebar';
 

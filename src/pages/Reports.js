@@ -78,7 +78,8 @@ import { useParams } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Reports.css'; 
 import file from '../images/document.jpg'
-import Close from '@material-ui/icons/Close';
+// import Close from '@material-ui/icons/Close';
+import Close from '@mui/icons-material/Close';
 import Sidebar from '../components/sidebar';
 
 import vid4 from '../images/educational/filees.mp4';
